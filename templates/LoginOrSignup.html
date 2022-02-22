@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login or Sign up</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+	<h1>This is the page to login or sign up</h1>
+	<hr>
+	
+	<form action="/Login" method="POST">
+		<input type="submit" value="Sign In" name="Login" id="Login">
+	</form>
+	<br>
+	<form action="/SignUp" method="POST">
+		<input type="submit" value="Sign Up" name="Sign Up" id="SignUp">
+        </form>
+
+  </body>
+</html>
+

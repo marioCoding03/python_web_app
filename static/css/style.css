@@ -1,0 +1,15 @@
+label {
+	text-align: center;
+	display: block;
+	font: .9rem 'Fira Sans', sans-serif;
+}
+
+input[type='sumbit'],
+label {
+	margin-top: 1rem;
+	display: inline-block;	
+}
+
+button {
+	margin-left: 5em;	
+}

@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "*"
+Flask-SQLAlchemy = "*"
+Flask-Bcrypt = "*"
+DateTime = "*"
+SQLAlchemy = "*"
+app = "*"
+MarkupSafe = "*"
+requests = "*"
+pipfile = "*"
+pip = "*"
+markupsafe = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
