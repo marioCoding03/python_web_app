@@ -15,7 +15,7 @@ Step 2 - Setup Apache2:
     apt-get install libapache2-mod-wsgi-py3 -y
     ufw allow 'Apache'
     rm -r /var/www/html
-    git clone https://github.com/BigBrainer007/WebPage.git /var/www/WebPage
+    git clone https://github.com/marioCoding03/python_web_app.git /var/www/WebPage
     chmod +x /var/www/WebPage/SSL-gen.sh
     mv /var/www/WebPage/basic-app.conf /etc/apache2/sites-available
     a2dissite 000-default.conf
